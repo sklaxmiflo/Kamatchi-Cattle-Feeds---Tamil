@@ -467,6 +467,22 @@ main {
   animation: fadeIn 1s ease forwards;
 }
 
+
+
+/*video*/
+@media screen and (max-width: 600px) {
+  video {
+    width: 100% !important;
+    border-radius: 8px !important;
+    box-shadow: none !important;
+  }
+
+  h2 {
+    font-size: 1.4rem !important;
+    padding: 0 1rem;
+  }
+}
+
 /*Gallery Grid*/
 #gallery {
   max-width: 1100px;
