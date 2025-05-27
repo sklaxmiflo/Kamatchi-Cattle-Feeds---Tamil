@@ -502,9 +502,10 @@ main p {
 
 @media (max-width: 600px) {
   .about-card {
-    max-width: 100%;  
+    max-width: 90%;  
     min-height: auto;
-    flex: 1 1 100%;  
+    flex: 1 1 100%; 
+    margin: 15px; 
   }
   .about-name{
     font-size: 1rem;
@@ -524,6 +525,21 @@ main p {
 main {
   animation: fadeIn 1s ease forwards;
 }
+
+/*video*/
+@media screen and (max-width: 600px) {
+  video {
+    width: 100% !important;
+    border-radius: 8px !important;
+    box-shadow: none !important;
+  }
+
+  h2 {
+    font-size: 1.4rem !important;
+    padding: 0 1rem;
+  }
+}
+
 
 /*Gallery Grid*/
 #gallery {
